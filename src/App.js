@@ -16,6 +16,14 @@ function App() {
           rel="noopener noreferrer">
           Learn React
         </a>
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer">
+          Changed from feature-3 branch
+        </a>
       </header>
     </div>
   );
