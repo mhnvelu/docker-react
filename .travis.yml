@@ -1,4 +1,6 @@
 sudo: required
+language: generic
+
 services:
   - docker
 
@@ -8,4 +10,4 @@ before_install:
 
 ## npm run test doesn't exit automatically. so, coverage has been added
 script:
-  - docker run mhnvelu/docker-react npm run test -- --coverage
+  - docker run -e CI=true mhnvelu/docker-react npm run test -- --coverage
