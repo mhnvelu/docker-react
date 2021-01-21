@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t mhnvelu/docker-react -f Dockerfile.dev .
+
+## npm run test doesn't exit automatically. so, coverage has been added
+script:
+  - docker run mhnvelu/docker-react npm run test -- --coverage
