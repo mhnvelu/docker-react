@@ -1,1 +1,1 @@
-Dockerized Raect Application [![Build Status](https://www.travis-ci.com/mhnvelu/docker-react.svg?branch=master)](https://www.travis-ci.com/mhnvelu/docker-react)
+Dockerized React Application [![Build Status](https://travis-ci.com/mhnvelu/docker-react.svg?branch=feature)](https://travis-ci.com/mhnvelu/docker-react)
