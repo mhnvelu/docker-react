@@ -2,6 +2,7 @@ sudo: required
 services:
   - docker
 
+## Build an image and tag it. Use the image in script section
 before_install:
   - docker build -t mhnvelu/docker-react -f Dockerfile.dev .
 
